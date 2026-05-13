@@ -1,0 +1,39 @@
+import React from 'react'
+import AcceptTask from './AcceptTask'
+import NewTask from './NewTask'
+import CompleteTask from './CompleteTask'
+import FailedTask from './FailedTask'
+
+const TaskList = ({data}) => {
+    // console.log(data);
+    
+  return (
+    <div id='tasklist' className='h-[55%] flex overflow-x-auto justify-start items-center gap-10 mt-10'>
+        
+        {data.tasks.map((ele, idx)=>{
+             if(ele.newTask){
+                return <NewTask key={idx} data={ele}/>
+            }
+            if(ele.active){
+                return <AcceptTask key={idx} data={ele}/>
+            }
+           
+            if(ele.completed){
+                return <CompleteTask key={idx} data={ele}/>
+            }
+            if(ele.failed){
+                return <FailedTask key={idx} data={ele}/>
+            }
+            
+
+        })}
+         
+        
+         
+        
+         
+    </div>
+  )
+}
+
+export default TaskList
