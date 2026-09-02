@@ -4,7 +4,7 @@
     {
       "id": 1,
       "firstName": "Amit",
-      "email": "e@e.com",
+      "email": "employee1@gmail.com",
       "password": "123",
       "taskCounts": {
         "active": 1,
@@ -48,7 +48,7 @@
     {
       "id": 2,
       "firstName": "Rahul",
-      "email": "employee2@example.com",
+      "email": "employee2@gmail.com",
       "password": "123",
       "taskCounts": {
         "active": 1,
@@ -92,7 +92,7 @@
     {
       "id": 3,
       "firstName": "Priya",
-      "email": "employee3@example.com",
+      "email": "employee3@gmail.com",
       "password": "123",
       "taskCounts": {
         "active": 1,
@@ -146,7 +146,7 @@
     {
       "id": 4,
       "firstName": "Sneha",
-      "email": "employee4@example.com",
+      "email": "employee4@gmail.com",
       "password": "123",
       "taskCounts": {
         "active": 2,
@@ -190,7 +190,7 @@
     {
       "id": 5,
       "firstName": "Vikram",
-      "email": "employee5@example.com",
+      "email": "employee5@gmail.com",
       "password": "123",
       "taskCounts": {
         "active": 1,
@@ -235,7 +235,7 @@
 
   const admin=[ {
     "id": 101,
-    "email": "admin@me.com",
+    "email": "admin@gmail.com",
     "password": "123"
   }
   ]

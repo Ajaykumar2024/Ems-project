@@ -29,7 +29,7 @@ const Login = ({handleLogIn}) => {
             }}
               type="email"
               required
-              placeholder="Enter your Email"
+              placeholder="employee1@gmail.com"
               className="w-full rounded-full border text-xl border-emerald-500/60 bg-slate-950/80 px-4 py-3 text-white outline-none "
             />
           </label>
@@ -44,7 +44,7 @@ const Login = ({handleLogIn}) => {
             value={password}
               type="password"
               required
-              placeholder="Enter password"
+              placeholder="Enter password:123"
               className="w-full rounded-full border border-emerald-500/60 bg-slate-950/80 px-4 py-3 text-white outline-none transition focus:border-emerald-400 focus:ring-2 focus:ring-emerald-400/30"
             />
           </label>
