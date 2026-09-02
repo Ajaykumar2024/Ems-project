@@ -43,13 +43,13 @@ A React-based Task Management System that allows administrators to assign and mo
 
 ### Admin Login
 
-Email: [admin@example.com](mailto:admin@example.com)
+Email: [admin@gmail.com](mailto:admin@gmail.com)
 
 Password: 123
 
 ### Employee Login
 
-Email: [employee1@example.com](mailto:employee1@example.com)
+Email: [employee1@gmail.com](mailto:employee1@gmail.com)
 
 Password: 123
 
