@@ -26,7 +26,7 @@ import { AuthContext } from './context/AuthProvider'
 
          
    const handleLogIn= (email,password)=>{
-     if(email == 'admin@me.com' && password == '123'){
+     if(email == 'admin@gmail.com' && password == '123'){
 
       setUser({role: 'admin',name: 'Admin'})
       localStorage.setItem('loggedInUser', JSON.stringify({role:'admin', name: 'Admin'}))
